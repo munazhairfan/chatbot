@@ -5,6 +5,8 @@ from io import BytesIO
 import os
 HF_API_KEY = os.getenv("HF_API_KEY")
 
+st.set_page_config(page_title="Unit Converter", page_icon="🌷")
+
 # Model Endpoints
 TEXT_MODEL = "mistralai/Mixtral-8x7B-Instruct-v0.1"  # Handles multiple tasks
 IMAGE_MODEL = "stabilityai/stable-diffusion-xl-base-1.0"
